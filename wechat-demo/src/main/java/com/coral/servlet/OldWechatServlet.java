@@ -12,13 +12,13 @@ import java.io.InputStreamReader;
 /**
  * Servlet implementation class WechatServlet
  */
-public class WechatServlet extends HttpServlet {
+public class OldWechatServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public WechatServlet() {
+    public OldWechatServlet() {
         super();
     }
 
@@ -78,4 +78,5 @@ public class WechatServlet extends HttpServlet {
 		}
 		return buffer.toString();
 	}
+
 }

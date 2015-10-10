@@ -7,12 +7,22 @@
 
 	<servlet>
 		<servlet-name>WechatServlet</servlet-name>
-		<servlet-class>com.coral.servlet.WechatServlet</servlet-class>
+		<servlet-class>com.coral.servlet.OldWechatServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>WechatServlet</servlet-name>
 		<url-pattern>/weixin</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>EasyWechatServlet</servlet-name>
+		<servlet-class>com.coral.servlet.EasyWechatServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EasyWechatServlet</servlet-name>
+		<url-pattern>/easyweixin</url-pattern>
+	</servlet-mapping>
+
 
 
 	<servlet>
